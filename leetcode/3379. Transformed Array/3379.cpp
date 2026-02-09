@@ -1,15 +1,15 @@
 #include <vector>
 using namespace std;
 
-/**
- * Constructs a transformed array result where result[i] is the element at
- * index (i + nums[i]) in the circular array nums.
- * - If nums[i] > 0, moves right.
- * - If nums[i] < 0, moves left.
- * - If nums[i] == 0, stays at the current index.
- *
- * Time Complexity: O(N)
- * Space Complexity: O(N)
+/*
+Constructs a transformed array result where result[i] is the element at
+index (i + nums[i]) in the circular array nums.
+- If nums[i] > 0, moves right.
+- If nums[i] < 0, moves left.
+- If nums[i] == 0, stays at the current index.
+
+Time Complexity: O(N)
+Space Complexity: O(N)
  */
 
 class Solution {
